@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  padding-top: 70px;
+}
+.buttons {
+  padding: 15px;
+}
+#anyWord,
+#startWord {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  font-size: 8px;
+  border: none;
+}
+#searchBar {
+  border-radius: 50%;
+}
+#container {
+  background-image: url("globe.jpg");
+  background-color: #3b576d;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+#searchBar {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid rgb(34, 64, 92);
+  box-sizing: border-box;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.search-item {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background-image: url(map.jpg);
+  background-color: rgb(34, 64, 92);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 10%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
